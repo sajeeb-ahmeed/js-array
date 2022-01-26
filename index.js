@@ -22,3 +22,10 @@ var numbersIndex = numbers.indexOf(32);
 var numbersIndexs = numbers.indexOf(9);
 console.log(numbersIndex);
 console.log(numbersIndexs);
+//position count
+var number1 = numbers[9];
+console.log(number1);
+var positions = myFriendsNames[2];
+var positions2 = myFriendsNames[2322]; //undefined
+console.log(positions);
+console.log(positions2);
