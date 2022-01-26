@@ -14,3 +14,11 @@ var friendNameIndex = myFriendsNames.indexOf("jhankar");
 console.log(friendNameIndex);
 var index = vowels.indexOf('o');
 console.log(index);
+
+
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 23232, 33, 4354, 435, 34534, 32, 543, ];
+var numbersIndex = numbers.indexOf(32);
+var numbersIndexs = numbers.indexOf(9);
+console.log(numbersIndex);
+console.log(numbersIndexs);
