@@ -25,3 +25,20 @@ if (sojib > shakib) {
 } else {
     console.log(" Shakib well done")
 }
+// multiple condition 
+var gotJob = true;
+var moneySaved = 2000;
+var haveHouse = true;
+var buyFlat = false;
+
+if ((gotJob == true && moneySaved > 300000) || haveHouse == false) {
+    console.log("biye kore felo");
+
+} else {
+    console.log("tor kopale biye nai....!!")
+}
+if (gotJob == true && haveHouse == true && moneySaved < 2200) {
+    console.log("hey ami tumr ");
+} else {
+    console.log("tumi keda ami chini na ------- Like a selfish")
+}
