@@ -37,7 +37,7 @@ console.log(myFriendsNames);
 console.log(myFriendsNames);
 //pop
 myFriendsNames.pop();
-myFriendsNames.shift(); // from beging
+myFriendsNames.shift(); // remove from beging
 console.log(myFriendsNames);
 myFriendsNames.unshift();
 console.log(myFriendsNames); // add from beging
