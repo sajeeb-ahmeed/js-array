@@ -29,3 +29,13 @@ var positions = myFriendsNames[2];
 var positions2 = myFriendsNames[2322]; //undefined
 console.log(positions);
 console.log(positions2);
+
+// push-pop
+myFriendsNames.push('Afridi');
+myFriendsNames.push('Ronaldo', 'Messi', 'Naymar');
+console.log(myFriendsNames);
+console.log(myFriendsNames);
+//pop
+myFriendsNames.pop();
+myFriendsNames.shift(); // from beging
+console.log(myFriendsNames);
