@@ -81,3 +81,7 @@ if (grade < 100) {
 } else {
     console.log("Programming Hobe nah toke diya")
 }
+var a = 6;
+console.log(a != 6);
+console.log(6 != 6);
+console.log(6 >= 6);

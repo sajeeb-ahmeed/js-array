@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <span id="printPlayersName"></span>
+
+    <script>
+        const players = ["shakib ", "Shishir", " Tamima ", "Nasir", "Rubel ", "Happy"];
+
+        let playersName = 0;
+        let couplePlayers = "";
+        while (players[playersName]) {
+            couplePlayers += players[playersName] + "<br>";
+            playersName++;
+        }
+
+        document.getElementById("printPlayersName").innerHTML = couplePlayers;
+    </script>
+
+</body>
+
+</html>
