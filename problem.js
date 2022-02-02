@@ -45,7 +45,7 @@ if (age > 15 && age < 20 && vaccineCount == 0) {
 }
 if (age > 15 && age < 20 && vaccineCount == 2) {
     isVaccinated = true;
-    // console.log(" You are done")
+    console.log(" You are done")
 }
 
 //
@@ -56,30 +56,30 @@ if (age > 15 && age < 20 && vaccineCount == 2) {
 
 
 
-// let budget = 8000;
-// hotelCost = 4000;
-// if (budget > 5000) {
-//     console.log(
-//         " Let's Tour Cox's Bazar"
-//     )
+let budget = 8000;
+hotelCost = 4000;
+if (budget > 5000) {
+    console.log(
+        " Let's Tour Cox's Bazar"
+    )
 
-// } else if (budget => 7000) {
-//     console.log(
-//         "guraguri bad coding kor boshe"
-//     )
-// } else {
-//     console.log(
-//         " tk nai gumai jao"
-//     )
-// }
-// let extraMoney = budget - hotelCost;
-// console.log(extraMoney);
+} else if (budget => 7000) {
+    console.log(
+        "guraguri bad coding kor boshe"
+    )
+} else {
+    console.log(
+        " tk nai gumai jao"
+    )
+}
+let extraMoney = budget - hotelCost;
+console.log(extraMoney);
 
-// if (extraMoney > 2000) {
-//     console.log("Let's do a BBQ Party");
-// } else {
-//     console.log(" Shoping korte jabo")
-// }
+if (extraMoney > 2000) {
+    console.log("Let's do a BBQ Party");
+} else {
+    console.log(" Shoping korte jabo")
+}
 
 
 //while loop
